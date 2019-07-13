@@ -33,34 +33,82 @@ function playMusic8() {
 } 
 
 const a = document.getElementById('a'),
-	listner = function (event) {
+	listnerKeyDown = function (event) {
 		switch (event.keyCode) {
 			case 65:
 				playMusic1();
+				a.classList.add('bigger');
 				break;
 			case 83:
 				playMusic2();
+				s.classList.add('bigger');
 				break;
 			case 68:
 				playMusic3();
+				d.classList.add('bigger');
+				
 				break;
 			case 70:
 				playMusic4();
+				f.classList.add('bigger');
 				break;
 			case 71:
-				playMusic5();
+				playMusic5
+				g.classList.add('bigger');
 				break;
 			case 72:
 				playMusic6();
+				h.classList.add('bigger');
 				break;
 			case 74:
 				playMusic7();
+				j.classList.add('bigger');
 				break;
 			case 75:
 				playMusic8();
+				k.classList.add('bigger');
+				break;
+		}
+	}
+
+const listnerKeyUp = function (event) {
+		switch (event.keyCode) {
+			case 65:
+				playMusic1();
+				a.classList.remove('bigger');
+				break;
+			case 83:
+				playMusic2();
+				s.classList.remove('bigger');
+				break;
+			case 68:
+				playMusic3();
+				d.classList.remove('bigger');
+				break;
+			case 70:
+				playMusic4();
+				f.classList.remove('bigger');
+				break;
+			case 71:
+				playMusic5();
+				g.classList.remove('bigger');
+				break;
+			case 72:
+				playMusic6();
+				h.classList.remove('bigger');
+				break;
+			case 74:
+				playMusic7();
+				j.classList.remove('bigger');
+				break;
+			case 75:
+				playMusic8();
+				k.classList.remove('bigger');
 				break;
 		}
 	}
 
 
-document.body.addEventListener('keydown', listner);
+document.body.addEventListener('keydown', listnerKeyDown);
+
+document.body.addEventListener('keyup', listnerKeyUp);
