@@ -33,6 +33,14 @@ function playMusic8() {
 } 
 
 const a = document.getElementById('a'),
+	  s = document.getElementById('s'),
+	  d = document.getElementById('d'),
+	  f = document.getElementById('f'),
+	  g = document.getElementById('g'),
+	  h = document.getElementById('h'),
+	  j = document.getElementById('j'),
+	  k = document.getElementById('k'),
+	  
 	listnerKeyDown = function (event) {
 		switch (event.keyCode) {
 			case 65:
