@@ -6,30 +6,30 @@ const play1 = document.getElementById("audio1"),
 	  play6 = document.getElementById("audio6"),
 	  play7 = document.getElementById("audio7"),
 	  play8 = document.getElementById("audio8")
-	    
+   
 function playMusic1() { 
-    audio1.play(); 
+    play1.play(); 
 };
 function playMusic2() { 
-    audio2.play(); 
+    play2.play(); 
 } 
 function playMusic3() { 
-    audio3.play(); 
+    play3.play(); 
 } 
 function playMusic4() { 
-    audio4.play(); 
+    play4.play(); 
 } 
 function playMusic5() { 
-    audio5.play(); 
+    play5.play(); 
 } 
 function playMusic6() { 
-    audio6.play(); 
+    play6.play(); 
 } 
 function playMusic7() { 
-    audio7.play(); 
+    play7.play(); 
 } 
 function playMusic8() { 
-    audio8.play(); 
+    play8.play(); 
 } 
 
 const a = document.getElementById('a'),
