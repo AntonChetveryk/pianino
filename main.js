@@ -31,7 +31,6 @@ document.body.addEventListener('keyup', listnerKeyUp);
 /// event "мышь"
 function clickMouse(event) {
 	if (event.target.getAttribute('Class') === 'item') {
-		console.log(event.target.getAttribute('Class'));
 		event.target.childNodes[1].currentTime = 0;
 		event.target.childNodes[1].play();
 	}
