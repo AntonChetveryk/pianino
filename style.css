@@ -29,7 +29,10 @@ body {
     font-size: 30px;
     transition: all .1s;
 }
-
+.item:active{
+	box-shadow: 0 0 12px gold;
+    transform: scale(1.2, 1.2);
+}
 
 
 .bigger {
